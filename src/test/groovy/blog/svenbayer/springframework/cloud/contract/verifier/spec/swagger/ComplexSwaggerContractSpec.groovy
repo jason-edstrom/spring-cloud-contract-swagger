@@ -60,12 +60,12 @@ class ComplexSwaggerContractSpec extends Specification {
                 }
                 body(
                         """{
+  "size" : 6779,
   "asteroids" : [ {
     "shape" : "BEAN",
     "name" : "Phobos",
     "speed" : 23
   } ],
-  "size" : 6779,
   "name" : "Mars"
 }""")
             }

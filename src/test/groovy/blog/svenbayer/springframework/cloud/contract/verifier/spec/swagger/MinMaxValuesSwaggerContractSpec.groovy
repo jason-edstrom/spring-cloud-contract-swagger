@@ -39,11 +39,11 @@ class MinMaxValuesSwaggerContractSpec extends Specification {
                 }
                 body(
                         """{
+  "boxes" : [ "boxes" ],
   "beanonauts" : [ {
     "name" : "name",
     "age" : 1
   } ],
-  "boxes" : [ "boxes" ],
   "fuel" : 1.1,
   "weight" : 1.1,
   "itinerary" : {
@@ -65,6 +65,7 @@ class MinMaxValuesSwaggerContractSpec extends Specification {
                 }
                 body(
                         """{
+  "size" : 1,
   "asteroids" : [ {
     "shape" : "ROUND",
     "aliens" : [ {
@@ -74,7 +75,6 @@ class MinMaxValuesSwaggerContractSpec extends Specification {
     "speed" : 1,
     "istransparent" : true
   } ],
-  "size" : 1,
   "name" : "name"
 }""")
             }

@@ -60,12 +60,12 @@ class MultiSwaggerContractSpec extends Specification {
                 }
                 body(
                         """{
+  "size" : 1,
   "asteroids" : [ {
     "shape" : "ROUND",
     "name" : "name",
     "speed" : 1
   } ],
-  "size" : 1,
   "name" : "name"
 }""")
             }
@@ -87,12 +87,12 @@ class MultiSwaggerContractSpec extends Specification {
                 }
                 body(
                         """{
+  "size" : 1,
   "asteroids" : [ {
     "shape" : "ROUND",
     "name" : "name",
     "speed" : 1
   } ],
-  "size" : 1,
   "name" : "name"
 }""")
             }
@@ -142,12 +142,12 @@ class MultiSwaggerContractSpec extends Specification {
                 }
                 body(
                         """{
+  "size" : 1,
   "asteroids" : [ {
     "shape" : "ROUND",
     "name" : "name",
     "speed" : 1
   } ],
-  "size" : 1,
   "name" : "name"
 }""")
             }

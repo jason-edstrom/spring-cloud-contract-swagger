@@ -39,11 +39,11 @@ class SinglePathParamSwaggerContractSpec extends Specification {
                 }
                 body(
                         """{
+  "boxes" : [ "boxes" ],
   "beanonauts" : [ {
     "name" : "name",
     "age" : 1
   } ],
-  "boxes" : [ "boxes" ],
   "fuel" : 1.1,
   "weight" : 1.1,
   "itinerary" : {

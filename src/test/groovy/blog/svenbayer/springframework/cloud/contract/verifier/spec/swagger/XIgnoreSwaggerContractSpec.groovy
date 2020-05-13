@@ -38,11 +38,11 @@ class XIgnoreSwaggerContractSpec extends Specification {
                 }
                 body(
                         """{
+  "boxes" : [ "boxes" ],
   "beanonauts" : [ {
     "name" : "name",
     "age" : 1
   } ],
-  "boxes" : [ "boxes" ],
   "fuel" : 1.1,
   "weight" : 1.1,
   "itinerary" : {
@@ -60,6 +60,7 @@ class XIgnoreSwaggerContractSpec extends Specification {
                 }
                 body(
                         """{
+  "size" : 1,
   "asteroids" : [ {
     "shape" : "ROUND",
     "aliens" : [ {
@@ -69,7 +70,6 @@ class XIgnoreSwaggerContractSpec extends Specification {
     "speed" : 1,
     "istransparent" : true
   } ],
-  "size" : 1,
   "name" : "name"
 }""")
             }

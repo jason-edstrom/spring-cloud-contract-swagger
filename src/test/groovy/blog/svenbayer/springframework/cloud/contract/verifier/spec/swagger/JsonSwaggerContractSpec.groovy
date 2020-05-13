@@ -38,11 +38,11 @@ class JsonSwaggerContractSpec extends Specification {
                     contentType(applicationJson())
                 }
                 body("""{
+  "boxes" : [ "boxes" ],
   "beanonauts" : [ {
     "name" : "name",
     "age" : 1
   } ],
-  "boxes" : [ "boxes" ],
   "fuel" : 1.1,
   "weight" : 1.1,
   "itinerary" : {
@@ -59,6 +59,7 @@ class JsonSwaggerContractSpec extends Specification {
                     contentType(allValue())
                 }
                 body("""{
+  "size" : 1,
   "asteroids" : [ {
     "shape" : "ROUND",
     "aliens" : [ {
@@ -68,7 +69,6 @@ class JsonSwaggerContractSpec extends Specification {
     "speed" : 1,
     "istransparent" : true
   } ],
-  "size" : 1,
   "name" : "name"
 }""")
             }
